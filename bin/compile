@@ -7,6 +7,6 @@ indent() {
 echo "-----> Install Noto SC font"
 mkdir ~/.fonts
 
-curl -o ~/.fonts/NotoSansSC-Regular.otf https://d2eqfri47xfodf.cloudfront.net/assets/fonts/NotoSansSC-Regular.otf
+curl -s -o ~/.fonts/NotoSansSC-Regular.otf https://d2eqfri47xfodf.cloudfront.net/assets/fonts/NotoSansSC-Regular.otf
 
 fc-cache -f -v
